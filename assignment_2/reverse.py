@@ -1,6 +1,6 @@
 
 reverse_num=0
-number=int(input("please inter the number: "))
+number=int(input("please enter the number: "))
 original=number
 while number>0:
     digit_num=number%10
