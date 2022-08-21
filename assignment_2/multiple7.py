@@ -1,4 +1,4 @@
-number=int(input("please inter the number: "))
+number=int(input("please enter the number: "))
 if number % 7==0:
     print(number,"is a multiple of 7")
 else:
