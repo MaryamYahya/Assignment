@@ -1,7 +1,7 @@
 
 while True:
-    weight=float(input("please inter your weight in kilograms: "))
-    height=float(input("please inter your height in meters: "))
+    weight=float(input("please enter your weight in kilograms: "))
+    height=float(input("please enter your height in meters: "))
     
     BMI = (weight/(height*height))
     
