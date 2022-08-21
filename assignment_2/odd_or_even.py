@@ -1,4 +1,4 @@
-number=int(input("please inter the number:"))
+number=int(input("please enter the number:"))
 odd_coun=0
 even_coun=0
 
