@@ -7,7 +7,7 @@ score_draw=0
 score_defeat=0
 total=0
 
-for i in range(1,3):
+for i in range(1,9):
     result=input(f"Please enter the result of the {i} game: \n win...score=3 \n defeat...score=0 \n draw...score=1 \n :")
     if result == "win" :
         win += 1
