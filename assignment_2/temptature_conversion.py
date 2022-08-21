@@ -12,7 +12,7 @@ while True:
     select=int(input("please select one of the above: "))
 
     if select == 1:
-        Fahrenheit=float(input("please inter the Fahrenheit Temprature: "))
+        Fahrenheit=float(input("please enter the Fahrenheit Temprature: "))
         FK = (Fahrenheit-32) * 5/9 + 273.15
         print(Fahrenheit,"Fahrenheit = ",FK,"Kelvin")
         condition=input("do you want to continue? \n yes or no ... ")
@@ -23,7 +23,7 @@ while True:
             break
 
     elif select == 2:
-        Kelvin=float(input("please inter the Kelvin Temprature: "))
+        Kelvin=float(input("please enter the Kelvin Temprature: "))
         KF = (Kelvin-273.15) * 9/5 + 32
         print(Kelvin,"Kelvin = ",KF,"Fahrenheit")
         condition=input("do you want to continue? \n yes or no ... ")
@@ -34,7 +34,7 @@ while True:
             break
 
     elif select == 3:
-        Fahrenheit=float(input("please inter the Fahrenheit Temprature: "))
+        Fahrenheit=float(input("please enter the Fahrenheit Temprature: "))
         FC = (Fahrenheit-32) * 5/9
         print(Fahrenheit,"Fahrenheit = ",FC,"Celsius")
         condition=input("do you want to continue? \n yes or no ... ")
@@ -45,7 +45,7 @@ while True:
             break
 
     elif select == 4:
-        Celsius=float(input("please inter the Celsius Temprature: "))
+        Celsius=float(input("please enter the Celsius Temprature: "))
         CF = (Celsius*9/5)+32
         print(Celsius,"Celsius = ",CF,"Fahrenhei")
         condition=input("do you want to continue? \n yes or no ... ")
@@ -56,7 +56,7 @@ while True:
             break
 
     elif select == 5:
-        Kelvin=float(input("please inter the Kelvin Temprature: "))
+        Kelvin=float(input("please enter the Kelvin Temprature: "))
         KC = (Kelvin-273.15)
         print(Kelvin,"Kelvin = ",KC,"Celsius")
         condition=input("do you want to continue? \n yes or no ... ")
@@ -67,7 +67,7 @@ while True:
             break
 
     elif select == 6:
-        Celsius=float(input("please inter the Celsius Temprature: "))
+        Celsius=float(input("please enter the Celsius Temprature: "))
         CK = (Celsius+273.15)
         print(Celsius,"Celsius = ",CK,"Celvin")
         condition=input("do you want to continue? \n yes or no ... ")
