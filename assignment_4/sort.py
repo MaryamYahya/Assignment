@@ -1,6 +1,6 @@
 num=[]
 for i in range (10):
-    n=input("please enter the number: ")
+    n=int(input("please enter the number: "))
     num.append(n)
 print(f"List of input numbers={num}")
 count=0
