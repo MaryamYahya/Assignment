@@ -1,7 +1,7 @@
 import math
 import cmath
 
-print("Grade 2 equation: ax2 + bx + c = 0")
+print("Grade 2 equation: ax² + bx + c = 0")
 
 def delt(a,b,c):
 
