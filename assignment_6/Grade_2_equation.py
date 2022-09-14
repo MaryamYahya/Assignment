@@ -1,6 +1,5 @@
 import math
 import cmath
-import string
 
 print("Grade 2 equation: ax2 + bx + c = 0")
 
